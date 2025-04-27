@@ -68,6 +68,23 @@ Set up Auto Scaling Groups triggered by CPU usage to maintain application availa
 
 Deployed a static website using AWS Elastic Beanstalk environment for simplified application management.
 
+11. RDS Database Setup and EC2 Connection
+
+Services Used: RDS, EC2
+
+What I Did:
+
+Created a MySQL database in RDS.
+
+Launched an EC2 instance and connected it to the RDS database.
+
+Created tables, inserted data, and took a database dump, storing it back into the EC2.
+
+
+Why:
+
+To learn managed database services, network security (DB accessibility), and data backup techniques.
+
 
 
 ---
@@ -93,7 +110,7 @@ Real-world troubleshooting
 
 Technologies Used
 
-AWS EC2, S3, Lambda, SNS, CloudWatch, VPC, Load Balancer, Auto Scaling, Elastic Beanstalk
+AWS EC2, S3, Lambda, SNS, CloudWatch, VPC, Load Balancer, Auto Scaling, Elastic Beanstalk,RDS
 
 Ubuntu Linux
 
@@ -109,11 +126,8 @@ Next Steps
 
 Currently planning to work on:
 
-RDS (Relational Database Service)
-
 Route 53 (DNS Service)
 
-SQS (Simple Queue Service)
 
 
 Stay tuned for updates!
