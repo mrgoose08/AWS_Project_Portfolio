@@ -87,6 +87,49 @@ To learn managed database services, network security (DB accessibility), and dat
 
 
 
+Major AWS Project:
+Dynamic Website Hosting with EC2 and RDS
+
+Overview
+
+This project involved building a dynamic login-based website hosted on an EC2 instance, with user authentication handled via a backend MySQL database on RDS. It was my first major AWS deployment combining multiple services and full-stack integration.
+
+Tech Stack
+
+Frontend: HTML, PHP
+
+Backend: MySQL (RDS)
+
+Hosting: EC2 (Ubuntu)
+
+AWS Services Used: EC2, RDS, IAM, Security Groups
+
+
+Steps I Took
+
+1. Launched an EC2 Ubuntu instance and installed Apache, PHP, and MySQL client.
+
+
+2. Cloned static website files from GitHub and set up the initial web server.
+
+
+3. Created an RDS MySQL instance and configured security groups to allow EC2 access.
+
+
+4. Uploaded PHP scripts to EC2 and connected them to the RDS database.
+
+
+5. Created a login table in MySQL and inserted sample credentials.
+
+
+6. Debugged missing PHP and MySQL modules until the site was fully functional.
+
+
+
+Outcome
+
+Successfully deployed a working login system hosted on EC2 and backed by RDS—all within the AWS Free Tier. This project taught me real-world troubleshooting, multi-service integration, and basic full-stack deployment using AWS.
+
 ---
 
 Why These Projects?
